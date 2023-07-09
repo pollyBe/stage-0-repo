@@ -1,1 +1,169 @@
-<h1 style="color:blue;">A Blue Heading</h1>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    border: 1px solid red;
+    background-color: rgba(128, 0, 0, 0.8);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+    text-align: justify;
+
+  }
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+    color: white;
+    
+  }
+
+.nav-item {
+    padding-right: 28px;
+    
+}
+
+main {
+    border: 1px solid red;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: lavenderblush;
+  }
+
+.container-left {
+    display: block;
+    align-content: center;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    background-color: darksalmon;
+}
+
+#contacts {
+    display: inline;
+}
+
+.contacts-list {
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+.my-photo {
+    display: block;
+    margin: 10px 50px;
+    border: 10px solid rgba(128, 0, 0, 0.8);
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #2F4F4F;
+}
+
+ main h2{ 
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: black;
+    background-color: darkred;
+    width: max-content;
+}
+
+.container-right {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 60px;
+    justify-content:left;
+    align-content: center;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    
+}
+
+#education ul {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 auto;
+    list-style: none;
+    line-height: 2;
+}
+
+#about-me p {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    line-height: 2;
+}
+
+#code {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    line-height: 2;
+}
+
+#languages ul {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 0 auto;
+    list-style: none;
+    line-height: 2;
+}
+
+footer {
+    border: 1px solid red;
+    background-color:  rgba(128, 0, 0, 0.8);
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 13px 50px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.my-github,
+.link-course,
+.year {
+    color: black;
+    font-weight: bold;
+}
